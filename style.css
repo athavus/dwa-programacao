@@ -1,0 +1,293 @@
+/* Gerais */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 4% 0;
+}
+
+p, l1 {
+    color: #444;
+    font-size: 14px;
+}
+
+
+/* Nav-Bar */
+
+header, .navbar {
+    background-color: #353D41
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    max-width: 75px;
+    height: 50px;;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+
+.navbar-brand:hover {
+    color: #FFF;
+}
+
+#navbar-links a {
+    color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 8.rem;
+}
+
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+#c1 {
+    cursor: pointer;
+}
+
+#c2 {
+    cursor: pointer;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 25%;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+.main-btn {
+  background-color: #65DAF9;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: .4s;
+}
+
+.main-btn:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: transparent;
+  border-color: #3EC1D5;
+}
+
+.carousel-indicators .active {
+  background-color: #65DAF9;
+}
+
+/*Sobre a empresa*/
+
+#about-area {
+    background-color: #F9F9F9;
+}
+
+#cursos {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-title {
+    color: #444;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    left: 42.5%; 
+}
+
+.about-title {
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 15px;
+}
+
+#home-menu {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    padding: 0.3em;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#home-menu:hover {
+    box-shadow: 0 0 40px 40px rgb(94, 94, 94) inset;
+}
+
+#about-menu {
+    padding: 0.3em;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#about-menu:hover {
+    box-shadow: 0 0 40px 40px rgb(94, 94, 94) inset;
+}
+
+#where-menu {
+    padding: 0.3em;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#where-menu:hover {
+    box-shadow: 0 0 40px 40px rgb(94, 94, 94) inset;
+}
+
+#contact-menu {
+    padding: 0.3em;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#contact-menu:hover {
+    box-shadow: 0 0 40px 40px rgb(94, 94, 94) inset;
+}
+
+
+#inicio {
+    padding: 0.3em;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+#inicio:hover {
+    box-shadow: 0 0 40px 40px rgb(94, 94, 94) inset;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 3%;
+    background-color: grey;
+}
+
+#client-area {
+    padding-top: 3%;
+    width: 100%;
+    background-color: #596478;
+}
+
+#sobre-menu {
+  padding-top: 3%;
+}
+
+#clientSlider {
+  margin-top: 3%;
+}
+
+.col-md-6 {
+  padding-top: 3%;
+}
+
+.h-40 {
+  height: 100% !important;
+}
+
+.comment {
+    text-align: center;
+    width: 40%;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: auto;
+    border: 1px solid #c4c4c4;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.profile {
+    max-width: 2em;
+    max-height: 2em;
+    border-radius: 50%;
+}
+
+#testando {
+  width: 100%;
+  padding: 2%;
+  background-color: #ffffff;
+  color: #404040 !important;
+}
+
+.nomesComment {
+  padding-bottom: 2%;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  background-color: #444;
+  color: white !important;
+}
+
+#sobre-nos {
+  margin-top: 10px;
+}
+
+#alerta {
+  margin-left: 2%;
+  width: 40%;
+  display: none;
+}
+
+#alerta2 {
+  margin-left: 2%;
+  width: 40%;
+  display: none;
+}
+
+.card-body {
+  border-bottom: 1px solid black;
+}
